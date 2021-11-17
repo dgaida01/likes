@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Likes-Project</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Network</h1>
+    </header>
+    <div class="container">
+        <div class="pgtitleControl">
+            <h1 class="pgTitle">Your Feed</h1>
+        </div>
+        <div class="pgContent flexed">
+            <div class="avatarDisplayContainer">
+                <div class="avatarDisplay flex-col">
+                    <img src="img/user-circle.png" alt="User Icon">
+                    <div class=addAvatar>Add an avatar</div>
+                    <div class="avName">James Doe</div>
+                </div>
+            </div>
+            <div class="profileContainer flex-col ">
+                <div class="profileCards">
+                    <div class="profile flexed ">
+                        <p>Neil M</p>
+                        <div id="likecontain" class="flexed">
+                            <p id="card1Likes">9 Like(s)</p>
+                            <button id="card1" onclick="updateLike(this);">Like</button>
+                        </div>
+                    </div>
+                    <footer>
+                        <p class="filler">I just set up this new discord bot, ltem me know what you think.<a                               href="https://discord.com/channels/738494436467539968/906187356065914910"> <span>link</span> </a></p>
+                    </footer>
+                </div>
+
+                <div class="profileCards">
+                    <div class="profile flexed">
+                        <p>Nichole K</p>
+                        <div id="likecontain" class="flexed">
+                            <p id="card2Likes">12 Like(s)</p>
+                            <button id="card2" onclick="updateLike(this);">Like</button>
+                        </div>
+                    </div>
+                    <footer>
+                        <p class="filler"> Just finished my <span>next comic</span>, check it out</p>
+                    </footer>
+                </div>
+                <div class="profileCards">
+                    <div class="profile flexed">
+                        <p>Jim R</p>
+                        <div id="likecontain" class="flexed">
+                            <p id="card3Likes">9 Like(s)</p>
+                            <button id="card3" onclick="updateLike(this);">Like</button>
+                        </div>
+                    </div>
+                    <footer>
+                        <p class="filler">I can't stop listening to the <span>new album.</span> Who else is liking it? </p>
+                    </footer>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>

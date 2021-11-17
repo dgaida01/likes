@@ -1,0 +1,130 @@
+/* ============================================================*/
+/* global and utilities */
+/* ============================================================*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.flexed {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* ====================================== */
+/* header style and overall page container style */
+
+header {
+  width: 500px;
+  margin: 0 auto;
+  height: 40px;
+  background-color: black;
+  padding-left:25px;
+}
+header h1 {
+  color: white;
+  font-weight: lighter;
+}
+
+.pgtitleControl {
+  padding-top: 15px;
+}
+.pgTitle {
+  height: 30px;
+  font-size: 12pt;
+  text-align: center;
+  /* border: 2px solid black; */
+}
+
+.container {
+  width: 500px;
+  /* border: 2px solid black; */
+  margin: 0 auto;
+  padding-bottom: 10px;
+}
+/* ============================================================*/
+/* main page content */
+/* ===========================================================*/
+.pgContent {
+  /* border: 2px solid blue; */
+  gap: 1.5rem;
+}
+/* =========================================================== */
+/* left side of page display */
+/* =========================================================== */
+.avatarDisplayContainer img {
+  width: 40px;
+}
+.avatarDisplayContainer {
+  min-height: 400px;
+  flex: 1;
+  /* border: 2px solid black; */
+}
+
+.addAvatar{
+    font-size:10pt;
+    color:blue;
+    text-decoration: underline;
+}
+
+.avatarDisplay {
+  border: 2px solid black;
+  height: 150px;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+/* ============================================================*/
+/* right side of page display */
+/* ============================================================*/
+.profileContainer {
+  min-height: 400px;
+  flex: 3;
+  /* border: 2px solid black; */
+  padding-bottom: 30px;
+}
+
+.profileCards {
+  border: 2px solid black;
+}
+
+.profile {
+  min-height: 40px;
+  /* border: 2px solid green; */
+  padding-left: 10px;
+}
+
+#likecontain {
+  /* border: 2px solid red; */
+  width: 140px;
+  padding-right: 20px;
+}
+#likecontain button {
+  background-color: yellow;
+  height: 25px;
+  width: 40px;
+}
+/* ============================================================*/
+/* Footer of cards  */
+/* ============================================================*/
+.filler {
+  text-align: start;
+}
+.filler span {
+  color: blue;
+  text-decoration: underline;
+}
+
+footer {
+  padding: 10px;
+}
